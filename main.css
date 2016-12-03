@@ -2,7 +2,7 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-background: url(https://cdn.pixabay.com/photo/2016/02/15/11/38/background-1201003_960_720.jpg);
+background: url("backgroundF.jpg");
 background-size: cover;
 background-position: center;
 font-family: Lato;
@@ -16,11 +16,15 @@ html {
 
 #content1 {
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 6%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                0px 8px 13px rgba(0,0,0,0.1),
                0px 18px 23px rgba(0,0,0,0.1);
-
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  
+  
 }
 
 
@@ -47,78 +51,23 @@ body {
 
 
 
-body {
-  background-color: rgb(235,235,235);
-}
-
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-
-nav-row {
-  position: relative;
-}
-
-.nav-menu {
-  background-color: rgb(44,55,59);
-  background-color: rgb(51,103,214);
-  color: white;
-}
-
-.nav-menu img {
-  padding: 10px;
-}
- 
-.navbtn {
-  position: absolute;
-  right: 10px;
-  top: 20px;
-  border: none;
-}
-
-.navbtn2 {
-  position: absolute;
-  right: 110px;
-  top: 20px;
-  border: none;
-}
-
-.sub-menu {
-  height: 80px;
-  background-color: rgb(235,235,235);
-  background-color: rgb(66,133,244);
-}
 
 
 
-.sub-menu-links {
-  padding: 30px;
-}
 
-.sub-menu-links a {
-  padding: 15px;
-  text-transform: uppercase;
-  color:white;
-  font-size: 1.4em;
-}
-
-.content-row {
-  background-color: rgb(235,235,235);
-  padding-top: 25px;
-}
-
-/* Main Content classes */
 
 .video {
   background-color: grey;
   padding: 10px;
   margin: 10px;
-  box-shadow: 4px 4px 4px #888888;
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  
 }
 
 .video {
-  background-image: url("https://cdn.pixabay.com/photo/2015/05/15/05/59/demonstration-767863_960_720.jpg");
+  background-image: url("VideoB.jpg");
   background-size: cover;
   background-position: center;
   font-family: lato;
@@ -129,11 +78,14 @@ nav-row {
   background-color: grey;
   padding: 10px;
   margin: 10px;
-  box-shadow: 2px 2px 2px #888888;
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  
 }
 
 .about {
-  background-image: url("https://cdn.pixabay.com/photo/2016/03/09/16/49/landscape-1246861_960_720.jpg");
+  background-image: url("aboutB.jpg");
   background-size: cover;
   background-position: center;
   font-family: lato;
@@ -141,7 +93,7 @@ nav-row {
 }
 
 .contact-us {
-  background-image: url("https://cdn.pixabay.com/photo/2013/07/18/10/56/domino-163523_960_720.jpg");
+  background-image: url("contactB.jpg");
   background-size: cover;
   background-position: center;
   font-family: lato;
@@ -151,11 +103,14 @@ nav-row {
   background-color: grey;
   padding: 10px;
   margin: 10px;
-  box-shadow: 2px 2px 2px #888888;
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  
 }
 
 .testimonials {
-  background-image: url("https://cdn.pixabay.com/photo/2015/11/07/11/16/coffee-1030971_960_720.jpg");
+  background-image: url("testB.jpg");
   background-size: cover;
   background-position: center;
   font-family: Lato;
@@ -177,7 +132,10 @@ nav-row {
   background-color: grey;
   padding: 10px;
   margin: 10px;
-  box-shadow: 2px 2px 2px #888888;
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  
 }
 
 .contact-us .input-group {
@@ -190,65 +148,35 @@ nav-row {
 
 
 
-
-.creator {
-  background-color: grey;
-  padding: 10px;
-  margin: 10px;
-}
-
 .features {
   background-color: grey;
   padding: 10px;
   margin: 10px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.features {
+  font-size: 1em;
 }
 
 
 
-/* Bottom content */
-
-.website-logo-group {
-  margin: auto;
-  width: 75%;
-}
-
-.website-logo {
-  margin: 10px 35px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-/* Footer classes */
-
-.main-footer {
-  background-color: rgb(44,55,59);
-  color: white;
-  padding: 20px 50px;
-}
-
-.main-footer ul li {
-  list-style-type: none;
-}
-
-.sub-footer {
-  background-color: rgb(32,40,41);
-  color: white;
-  padding: 20px 50px;
-}
-
-/*example*/
 
 #footer {
   border-top: 2px solid grey;
-  background: #506682;
+  background: #222222;
   color: white;
-  height: 200px;
+  height: 100px;
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  
 }
-#footer ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-#footer h5 {
-  font-family: Rock Salt;
-}
+
+
+
+
+
 
